@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ingresar</title>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/all.css" />
+</head>
+
+<!-- This snippet uses Font Awesome 5 Free as a dependency. You can download it at fontawesome.io! -->
+
+<body>
+    <!-- Contenido de la parte superior -->
+    <div class="jumbotron text-center div_jumbo" style="background-color:#e6e6e6">
+        <div class="page-header">
+           <img src="imagen/mp_logo.jpg" style="float:left; width: 170px; height:170px">
+           <img src="imagen/hospital_logo.jpg" style="float:right; width:170px; height:170px">
+            <h1 class="h1_jumbo" style="font-family: Droid Serif; font-size: 50px; color: red;"><b>Locatel</b></h1>
+            
+            <p class="p_jumbo" style="color:blue;font-family: Open Sans; font-size: 25px;"><b>Encuentra tu familia</b></p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+                <div class="card card-signin my-5">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Iniciar sesion</h5>
+                        <form class="form-signin" method="POST" action="loggin.php">
+                            <div class="form-label-group">
+                                <input type="email" id="txtUsuario" name="correo" class="form-control" placeholder="Introduce tu correo electronico" required >
+                                <label for="txtUsuario">Ingresa tu correo electrónico</label>
+                            </div>
+
+                            <div class="form-label-group">
+                                <input type="password" id="txtPassword" name="contra" class="form-control" placeholder="Introduce tu contraseña" required>
+                                <label for="txtPassword">Contraseña</label>
+                            </div>
+                            
+
+                            <div class="custom-control custom-checkbox mb-3">
+                                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                <label class="custom-control-label" for="customCheck1">Recordar contraseña</label>
+                            </div>
+                            <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Ingresar</button>
+
+                            <a href="registrar.php" class="btn btn-lg  btn-block text-uppercase" type="buton" style="background-color: #4CAF50">Registrate</a>
+                            
+                            <a href="inicio.php" class="btn btn-lg btn-danger btn-block text-uppercase" type="buton">Regresar</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer style="background-color: #1a1a1a; 
+    clear: both; 
+    text-align: center; 
+    height: 50px;">
+        <p style="color: white">© Derechos reservados I T C V</p>
+    </footer>
+</body>

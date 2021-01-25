@@ -1,0 +1,16 @@
+
+.div_jumbo {
+    height: 240px;
+    background-color: #e6e6e6;
+}
+
+.h1_jumbo {
+    font-family: Droid Serif;
+    font-size: 50px;
+    color: red;
+}
+
+.p_jumbo{
+    font-family: Open Sans; 
+    font-size: 25px;
+}
